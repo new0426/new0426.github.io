@@ -15,7 +15,7 @@ function enter(e) {
 }
 
 function check() {
-    if (day.value == 220425 || day.value == 20220425 || day.value == '0425') {
+    if (day.value == 980426 || day.value == 19980426 || day.value == '0426') {
         landing.style.display = 'none';
         body.style.overflow = '';
         sub.style.visibility = 'visible';
@@ -27,7 +27,7 @@ function check() {
 }
 
 window.onload = function() {
-    day.placeholder = '마지막 프메 날짜를 입력해주세요';
+    day.placeholder = '차니 생일을 입력해주세요';
 }
 
 
