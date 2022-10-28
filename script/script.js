@@ -5,8 +5,11 @@ const app = Vue.createApp({
             nickname: "",
             list:[],
             year:"2021",
-            month:"04",
+            month:"01",
             monthList1:[
+                {"label":"1월", "value":"01"},
+                {"label":"2월", "value":"02"},
+                {"label":"3월", "value":"03"},
                 {"label":"4월", "value":"04"},
                 {"label":"5월", "value":"05"},
                 {"label":"6월", "value":"06"},
@@ -22,15 +25,16 @@ const app = Vue.createApp({
                 {label:"2월", value:"02"},
                 {label:"3월", value:"03"},
                 {label:"4월", value:"04"}
+                {label:"5월", value:"05"},
+                {label:"6월", value:"06"},
+                {label:"7월", value:"07"},
+                {label:"8월", value:"08"},
+                {label:"9월", value:"09"},
+                {label:"10월", value:"10"}
             ],
-            dayList2104: [
-                {label:"15일", value:"15"},
-                {label:"18일", value:"18"},
-                {label:"21일", value:"21"},
-                {label:"24일", value:"24"},
-                {label:"26일", value:"26"},
+            dayList2101: [
                 {label:"28일", value:"28"},
-                {label:"30일", value:"30"}
+                {label:"31일", value:"31"},
             ],
             dayList2105: [
                 {label:"2일", value:"02"},
