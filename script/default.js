@@ -21,7 +21,7 @@ function check() {
         sub.style.visibility = 'visible';
         window.scrollTo(0,0);
     } else {
-        alert('차');
+        alert('차니 서운해');
         return;
     }
 }
