@@ -21,7 +21,7 @@ function check() {
         sub.style.visibility = 'visible';
         window.scrollTo(0,0);
     } else {
-        alert('잘못된 날짜입니다');
+        alert('차');
         return;
     }
 }
